@@ -1,14 +1,14 @@
-import './App.css'
-import { Counter } from './components/Counter/Counter'
+import "./App.css";
+import { ColorPicker } from "./components/ColorPicker/ColorPicker";
+import { Counter } from "./components/Counter/Counter";
 
 function App() {
-
-
   return (
     <>
-    <Counter />
+      <Counter />
+      <ColorPicker />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

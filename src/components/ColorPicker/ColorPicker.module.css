@@ -1,0 +1,31 @@
+.wrapper {
+    height: 100vh;
+    position: relative;
+    transition: background-color 0.5s linear;
+}
+.title {
+    text-align: center;
+    padding-top: 50px;
+}
+.list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.item {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px dotted black ;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .8);
+    }
+}
